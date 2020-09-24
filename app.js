@@ -118,6 +118,9 @@ function mimedetect(fname) {
 	if (/\.flac$/.test(fname)) mime = 'audio/flac';
 	if (/\.wav$/.test(fname)) mime = 'audio/wav';
 	if (/\.wma$/.test(fname)) mime = 'audio/wma';
+
+        return mime;
+
 }
 
 // Start http server
